@@ -1,4 +1,4 @@
-import { Home, User } from 'lucide-react';
+import { Home, Layers, Package, User } from 'lucide-react';
 import { z } from 'zod';
 
 import { NavigationConfigSchema } from '@kit/ui/navigation-schema';
@@ -16,6 +16,21 @@ const routes = [
         path: pathsConfig.app.home,
         Icon: <Home className={iconClasses} />,
         end: true,
+      },
+    ],
+  },
+  {
+    label: 'AutoSelfHost',
+    children: [
+      {
+        label: 'App Catalog',
+        path: '/home/ash/catalog',
+        Icon: <Package className={iconClasses} />,
+      },
+      {
+        label: 'My Deployments',
+        path: '/home/ash/deployments',
+        Icon: <Layers className={iconClasses} />,
       },
     ],
   },
