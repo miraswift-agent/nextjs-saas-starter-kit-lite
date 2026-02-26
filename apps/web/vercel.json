@@ -1,0 +1,4 @@
+{
+  "buildCommand": "pnpm with-env next build",
+  "installCommand": "cd ../.. && pnpm install"
+}
