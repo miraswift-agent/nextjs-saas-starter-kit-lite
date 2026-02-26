@@ -120,9 +120,7 @@ function MainCallToActionButton() {
       <CtaButton>
         <Link href={'/auth/sign-up'}>
           <span className={'flex items-center space-x-0.5'}>
-            <span>
-              <Trans i18nKey={'common:getStarted'} />
-            </span>
+            <span>Get Started</span>
 
             <ArrowRightIcon
               className={
@@ -134,9 +132,9 @@ function MainCallToActionButton() {
         </Link>
       </CtaButton>
 
-      <CtaButton variant={'link'}>
-        <Link href={'/contact'}>
-          <Trans i18nKey={'common:contactUs'} />
+      <CtaButton variant={'outline'}>
+        <Link href={'/auth/sign-in'}>
+          Log In
         </Link>
       </CtaButton>
     </div>
