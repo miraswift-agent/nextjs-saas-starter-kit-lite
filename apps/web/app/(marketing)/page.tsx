@@ -23,19 +23,19 @@ function Home() {
         <Hero
           pill={
             <Pill label={'New'}>
-              <span>The leading SaaS Starter Kit for ambitious developers</span>
+              <span>AI-Powered Self-Hosting Made Simple</span>
             </Pill>
           }
           title={
             <>
-              <span>The ultimate SaaS Starter</span>
-              <span>for your next project</span>
+              <span>Deploy Self-Hosted Apps</span>
+              <span>in Minutes, Not Hours</span>
             </>
           }
           subtitle={
             <span>
-              Build and Ship a SaaS faster than ever before with the next-gen
-              SaaS Starter Kit. Ship your SaaS in days, not months.
+              AutoSelfHost automates the entire self-hosting setup process. Browse our catalog, 
+              configure your stack, and deploy with one click. No Docker expertise required.
             </span>
           }
           cta={<MainCallToActionButton />}
@@ -48,7 +48,7 @@ function Home() {
               width={3558}
               height={2222}
               src={`/images/dashboard.webp`}
-              alt={`App Image`}
+              alt={`AutoSelfHost Dashboard`}
             />
           }
         />
@@ -62,47 +62,47 @@ function Home() {
             heading={
               <>
                 <b className="font-semibold dark:text-white">
-                  The ultimate SaaS Starter Kit
+                  Self-hosting without the hassle
                 </b>
                 .{' '}
                 <span className="text-muted-foreground font-normal">
-                  Unleash your creativity and build your SaaS faster than ever
-                  with Makerkit.
+                  Deploy 20+ popular self-hosted apps with intelligent Docker Compose generation 
+                  and automated Portainer integration.
                 </span>
               </>
             }
             icon={
               <FeatureShowcaseIconContainer>
                 <LayoutDashboard className="h-5" />
-                <span>All-in-one solution</span>
+                <span>Powered by AI</span>
               </FeatureShowcaseIconContainer>
             }
           >
             <FeatureGrid>
               <FeatureCard
                 className={'relative col-span-2 overflow-hidden'}
-                label={'Beautiful Dashboard'}
-                description={`Makerkit provides a beautiful dashboard to manage your SaaS business.`}
+                label={'Curated App Catalog'}
+                description={`Browse 20+ production-ready self-hosted applications with intelligent configuration templates.`}
               />
 
               <FeatureCard
                 className={
                   'relative col-span-2 w-full overflow-hidden lg:col-span-1'
                 }
-                label={'Authentication'}
-                description={`Makerkit provides a variety of providers to allow your users to sign in.`}
+                label={'One-Click Deployment'}
+                description={`Generate optimized Docker Compose stacks and deploy directly to Portainer with a single click.`}
               />
 
               <FeatureCard
                 className={'relative col-span-2 overflow-hidden lg:col-span-1'}
-                label={'Multi Tenancy'}
-                description={`Multi tenant memberships for your SaaS business.`}
+                label={'Smart Configuration'}
+                description={`AI-powered configuration assistant helps you set up apps with best practices built-in.`}
               />
 
               <FeatureCard
                 className={'relative col-span-2 overflow-hidden'}
-                label={'Billing'}
-                description={`Makerkit supports multiple payment gateways to charge your customers.`}
+                label={'Deployment Management'}
+                description={`Track all your deployments, monitor health, and manage your self-hosted infrastructure from one dashboard.`}
               />
             </FeatureGrid>
           </FeatureShowcase>
